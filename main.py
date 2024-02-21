@@ -34,7 +34,7 @@ PII_REG = RecognizerRegistry()
 configuration =  {
     "nlp_engine_name": "spacy",
     "models": [
-        {"lang_code": "en", "model_name": "en_core_web_md"}
+        {"lang_code": "en", "model_name": "en_core_web_lg"}
     ]
 }
 provider = NlpEngineProvider(nlp_configuration=configuration)
@@ -95,7 +95,8 @@ async def scrubber(transcript: str, lang: str = 'en'):
                                             'actor',
                                             'Actor Name',
                                             'Actor Name:'
-                                            'Actor'
+                                            'Actor',
+                                            'Message:',
                                         ],
                                         )
 
