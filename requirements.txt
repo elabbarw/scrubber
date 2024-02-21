@@ -1,0 +1,6 @@
+fastapi==0.109.2
+uvicorn==0.27.1
+pydantic==2.6.1
+presidio_analyzer==2.2.353
+presidio_anonymizer==2.2.353
+gptrim==0.1.6
