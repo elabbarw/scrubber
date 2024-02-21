@@ -58,4 +58,4 @@ FastAPI
 Presidio Analyzer
 
 ## Author
-Wanis Elabbar - github.com/welabbar
+Wanis Elabbar - github.com/elabbarw
